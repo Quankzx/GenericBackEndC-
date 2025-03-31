@@ -1,4 +1,16 @@
-*/bin
-*/obj
 /.vs
 /.svn
+# Bỏ tracking thư mục build
+*/bin/
+*/obj/
+
+# Bỏ tracking các file tạm của Visual Studio
+*.suo
+*.user
+*.cache
+*.vspscc
+*.vssscc
+
+# Bỏ tracking file logs, coverage, ...
+*.log
+*.coverage
