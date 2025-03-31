@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 namespace Services.Library.Repositories;
-public class UnitOfWork : IUnitOfWork
+public class UnitOfWork<TDbContext> : IUnitOfWork where TDbContext : DbContext
 {
-    private readonly DbContext _context;
-    private readonly ILogger<UnitOfWork> _logger;
-    public UnitOfWork(DbContext context, ILogger<UnitOfWork> logger)
+    private readonly TDbContext _context;
+    private readonly ILogger<UnitOfWork<TDbContext>> _logger;
+    public UnitOfWork(TDbContext context, ILogger<UnitOfWork<TDbContext>> logger)
     {
         _context = context;
         _logger = logger;
@@ -17,8 +17,8 @@ public class UnitOfWork : IUnitOfWork
             var entries = _context.ChangeTracker.Entries();
             foreach (var entry in entries)
             {
-                _logger.LogInformation("Entity: {EntityName}, State: {State}", 
-                    entry.Entity.GetType().Name, 
+                _logger.LogInformation("Entity: {EntityName}, State: {State}",
+                    entry.Entity.GetType().Name,
                     entry.State);
             }
 
@@ -26,7 +26,7 @@ public class UnitOfWork : IUnitOfWork
             _logger.LogInformation("SaveChangesAsync result: {Result}", result);
             return result > 0;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             _logger.LogError(ex, "Error occurred while committing changes. Details: {Message}", ex.Message);
             throw;
