@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yO6nW7zTirk=",
+  "dgSpecHash": "/Gxmu/EO9gs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nhqua\\OneDrive\\Documents\\Project\\Services\\Services.API\\Services.API.csproj",
+  "projectFilePath": "C:\\Users\\nhqua\\OneDrive\\Documents\\GenericBackEndC-\\Services.API\\Services.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhqua\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nhqua\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

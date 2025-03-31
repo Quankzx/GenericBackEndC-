@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nhqua\\OneDrive\\Documents\\Project\\Services\\Services.Library\\Services.Library.csproj": {}
+    "C:\\Users\\nhqua\\OneDrive\\Documents\\GenericBackEndC-\\Services.Library\\Services.Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nhqua\\OneDrive\\Documents\\Project\\Services\\Services.Library\\Services.Library.csproj": {
+    "C:\\Users\\nhqua\\OneDrive\\Documents\\GenericBackEndC-\\Services.Library\\Services.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nhqua\\OneDrive\\Documents\\Project\\Services\\Services.Library\\Services.Library.csproj",
+        "projectUniqueName": "C:\\Users\\nhqua\\OneDrive\\Documents\\GenericBackEndC-\\Services.Library\\Services.Library.csproj",
         "projectName": "Services.Library",
-        "projectPath": "C:\\Users\\nhqua\\OneDrive\\Documents\\Project\\Services\\Services.Library\\Services.Library.csproj",
+        "projectPath": "C:\\Users\\nhqua\\OneDrive\\Documents\\GenericBackEndC-\\Services.Library\\Services.Library.csproj",
         "packagesPath": "C:\\Users\\nhqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nhqua\\OneDrive\\Documents\\Project\\Services\\Services.Library\\obj\\",
+        "outputPath": "C:\\Users\\nhqua\\OneDrive\\Documents\\GenericBackEndC-\\Services.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
