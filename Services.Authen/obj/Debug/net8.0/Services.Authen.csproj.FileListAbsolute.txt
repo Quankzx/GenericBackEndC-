@@ -1,0 +1,15 @@
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\bin\Debug\net8.0\Services.Authen.deps.json
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\bin\Debug\net8.0\Services.Authen.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\bin\Debug\net8.0\Services.Authen.pdb
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\bin\Debug\net8.0\Services.Library.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\bin\Debug\net8.0\Services.Library.pdb
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.csproj.AssemblyReference.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.AssemblyInfoInputs.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.AssemblyInfo.cs
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.csproj.CoreCompileInputs.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.7F12E812.Up2Date
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\refint\Services.Authen.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\Services.Authen.pdb
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Authen\obj\Debug\net8.0\ref\Services.Authen.dll

@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Services.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Services.Authen.Application.Commands.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Services.Authen.Application.DTOs.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Services.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Services.Authen.Application.Commands.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Services.Authen.Application.DTOs.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

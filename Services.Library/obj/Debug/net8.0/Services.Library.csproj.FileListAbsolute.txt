@@ -1,0 +1,14 @@
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\bin\Debug\net8.0\Services.Library.deps.json
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\bin\Debug\net8.0\Services.Library.runtimeconfig.json
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\bin\Debug\net8.0\Services.Library.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\bin\Debug\net8.0\Services.Library.pdb
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.csproj.AssemblyReference.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.AssemblyInfoInputs.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.AssemblyInfo.cs
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.csproj.CoreCompileInputs.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\refint\Services.Library.dll
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.pdb
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\Services.Library.genruntimeconfig.cache
+C:\Users\nhqua\OneDrive\Documents\Project\Services\Services.Library\obj\Debug\net8.0\ref\Services.Library.dll
