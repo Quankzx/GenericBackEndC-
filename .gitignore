@@ -6,6 +6,15 @@
 [Rr]eleases/
 x64/
 x86/
+
+
+# Bỏ file cụ thể nếu cần
+**/obj/**/*.dll
+**/obj/**/*.pdb
+**/obj/**/*.json
+**/bin/**/*.dll
+**/bin/**/*.pdb
+
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
