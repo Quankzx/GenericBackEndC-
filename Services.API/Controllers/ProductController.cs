@@ -15,19 +15,19 @@ public class ProductController : BaseController
     }
     [Authorize(Roles = "User")]
     [HttpGet("get-outsize")]
-    //public async Task<ActionResult<AuthResponse>> getoutsize()
-    //{
-    //    ActionResult response = Unauthorized();
-    //    response = Ok("asdas");
-    //    return response;
-    //}
-    //[Authorize(Roles = "Admin")]
-    //[HttpGet("get-role")]
-    //public async Task<ActionResult<AuthResponse>> getrole()
-    //{
-    //    ActionResult response = Unauthorized();
-    //    response = Ok("asdas");
-    //    return response;
-    //}
+    public async Task<ActionResult<AuthResponse>> getoutsize()
+    {
+        ActionResult response = Unauthorized();
+        response = Ok("asdas");
+        return response;
+    }
+    [Authorize(Roles = "Admin")]
+    [HttpGet("get-role")]
+    public async Task<ActionResult<AuthResponse>> getrole()
+    {
+        ActionResult response = Unauthorized();
+        response = Ok("asdas");
+        return response;
+    }
 
 }
