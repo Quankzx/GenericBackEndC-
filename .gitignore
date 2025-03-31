@@ -1,3 +1,4 @@
+# Build output directories and files
 **/bin/
 **/obj/
 [Dd]ebug/
@@ -6,15 +7,6 @@
 [Rr]eleases/
 x64/
 x86/
-
-
-# Bỏ file cụ thể nếu cần
-**/obj/**/*.dll
-**/obj/**/*.pdb
-**/obj/**/*.json
-**/bin/**/*.dll
-**/bin/**/*.pdb
-
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
@@ -22,7 +14,17 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-# Thư mục và tệp Visual Studio
+# Specific build outputs
+bin/Debug/net8.0/*.dll
+bin/Debug/net8.0/*.exe
+bin/Debug/net8.0/*.pdb
+**/obj/**/*.dll
+**/obj/**/*.pdb
+**/obj/**/*.json
+**/bin/**/*.dll
+**/bin/**/*.pdb
+
+# Visual Studio files and directories
 .vs/
 vs/
 *.suo
@@ -31,8 +33,6 @@ vs/
 *.sln.docstates
 *.rsuser
 *.userprefs
-
-# Tệp cơ sở dữ liệu và bộ nhớ đệm
 *.VC.db
 *.VC.VC.opendb
 *.opendb
@@ -43,7 +43,7 @@ ipch/
 *.aps
 *.ncb
 
-# Tệp kiểm thử
+# Test-related files
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 *.VisualState.xml
@@ -55,7 +55,7 @@ coverage*.info
 *.coverage
 *.coveragexml
 
-# Tệp và thư mục của công cụ bổ sung
+# Third-party tools
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
@@ -67,7 +67,7 @@ _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
 
-# Tệp tạm thời và tự động sinh ra
+# Temporary and generated files
 *.bin
 *.log
 *.tlog
@@ -107,7 +107,7 @@ StyleCopReport.xml
 *.tli
 *.tlh
 
-# Tệp NuGet
+# NuGet
 *.nupkg
 *.snupkg
 **/[Pp]ackages/*
@@ -115,7 +115,7 @@ StyleCopReport.xml
 *.nuget.props
 *.nuget.targets
 
-# Tệp và thư mục khác
+# Miscellaneous
 *.psess
 *.vsp
 *.vspx
