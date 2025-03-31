@@ -22,8 +22,8 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     public virtual Task AddRangeAsync(IEnumerable<TEntity> entities) => dbSet.AddRangeAsync(entities);
     public virtual Task AddRangeAsync(IEnumerable<TEntity> entities, CancellationToken cancellationToken) => dbSet.AddRangeAsync(entities, cancellationToken);
 
-    public void Update(TEntity entity) => dbSet.Update(entity);
-    public void Update(IEnumerable<TEntity> entities) => dbSet.UpdateRange(entities);
+    public virtual void Update(TEntity entity) => dbSet.Update(entity);
+    public virtual void Update(IEnumerable<TEntity> entities) => dbSet.UpdateRange(entities);
 
     public virtual Task<bool> ExistAsync(Expression<Func<TEntity, bool>> predicate) => dbSet.AnyAsync(predicate);
     public virtual Task<bool> ExistAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken) => dbSet.AnyAsync(predicate, cancellationToken);

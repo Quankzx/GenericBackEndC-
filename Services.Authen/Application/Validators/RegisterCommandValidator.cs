@@ -7,8 +7,14 @@ namespace Services.Authen.Application.Validators;
 {
     public RegisterCommandValidator()
     {
-        RuleFor(x => x.Username).NotEmpty();
-        RuleFor(x => x.Password).MinimumLength(6);
-        RuleFor(x => x.Email).EmailAddress();
+        RuleFor(x => x.Username)
+            .NotEmpty().WithMessage("Username is required")
+            .MinimumLength(6).WithMessage("Username must be at least 6 characters long");
+
+        RuleFor(x => x.Password)
+            .NotEmpty().WithMessage("Password is required")
+            .MinimumLength(6).WithMessage("Password must be at least 6 characters long");
+
+        RuleFor(x => x.Email).NotEmpty().EmailAddress().WithMessage("Email is required");
     }
 }

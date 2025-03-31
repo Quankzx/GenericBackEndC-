@@ -24,7 +24,7 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, AuthRespo
             var user = new User { Username = request.Username, PasswordHash = hashedPassword, Email = request.Email };
             await _userRepository.AddAsync(user);
 
-            var token = _jwt.GenerateToken(user);
+            var token = _jwt.GenerateAccessToken(user);
             return new AuthResponse { Token = token };
         }catch(Exception ex)
         {

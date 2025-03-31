@@ -24,4 +24,10 @@ public class AuthController : BaseController
     {
         return await _mediator.Send(command);
     }
+    [HttpPost("refresh-token")]
+    public async Task<ActionResult<AuthResponse>> Refresh([FromBody] RefreshTokenCommand command)
+    {
+        return await _mediator.Send(command);
+    }
+
 }

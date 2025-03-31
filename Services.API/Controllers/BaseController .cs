@@ -2,7 +2,7 @@
 using System.Security.Claims;
 
 namespace Services.API.Controllers;
-
+[Route("api/[controller]")]
 [ApiController]
 public abstract class BaseController : Controller
 {
