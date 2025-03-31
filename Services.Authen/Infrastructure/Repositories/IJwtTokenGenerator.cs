@@ -3,5 +3,6 @@ namespace Services.Authen.Infrastructure.Repositories;
 
 public interface IJwtTokenGenerator
 {
-    string GenerateToken(User user);
+    string GenerateAccessToken(User user);
+    string GenerateRefreshToken();
 }

@@ -33,7 +33,13 @@ public class LoginCommandHandler : IRequestHandler<LoginCommand, AuthResponse>
         {
             throw new UnauthorizedAccessException("Invalid password");
         }
-        var token = _jwt.GenerateToken(user);
-        return new AuthResponse { Token = token };
+        var token = _jwt.GenerateAccessToken(user);
+        var refreshToken = _jwt.GenerateRefreshToken();
+
+        user.RefeshToken = refreshToken;
+        user.RefreshTokenExpiryTime = DateTime.UtcNow.AddDays(7);
+        await _userRepository.UpdateAsync(user);
+
+        return new AuthResponse { Token = token,RefeshToken = refreshToken };
     }
 }

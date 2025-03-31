@@ -1,4 +1,6 @@
-﻿using Services.API.Infrastructure.DependencyInjection;
+﻿using Microsoft.AspNetCore.Authentication;
+using Services.API.Configurations;
+using Services.API.Infrastructure.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,18 +12,19 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthenticationServices(builder.Configuration);
+builder.Services.AddSwaggerGenConfiguration(builder.Configuration);
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+
+    app.UseSwaggerConfiguration();
 }
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseCustomMiddleware();
 
 app.MapControllers();
 
